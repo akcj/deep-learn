@@ -79,7 +79,7 @@ def train_and_perceptron():
     '''
     使用and真值表训练感知器
     '''
-    #创建感知器，输入参数阁主为2（因为and为二元函数），激活函数为f
+    #创建感知器，输入参数个数为2（因为and为二元函数），激活函数为f
     p = Perceptron(2, f)
     #训练，迭代10轮，学习速率为0.1
     input_vecs,labels = get_training_dataset()
